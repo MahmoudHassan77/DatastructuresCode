@@ -44,7 +44,7 @@ namespace StackExample
 
         public int Peek()
         {
-            if (Top == -1) 
+            if (Top == -1)
             {
                 Console.WriteLine("Stack is empty.");
                 return Top;
